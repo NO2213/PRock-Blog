@@ -1,0 +1,47 @@
+.column {  
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  display: flex;
+  align-items: center;
+}
+
+.posts_lists {
+	min-height: 330px;
+}
+
+.posts_indiv h3 {
+	font-size: 22px;
+}
+
+.posts_lists h3 {
+	font-size: 18px;
+	min-height:50px;
+}
+
+.posts_lists_content {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.card-text {
+	border:1px solid #ccc;
+	padding:80px 30px 80px 30px;
+	margin:20px;
+	background-color: #F5F5F5;
+	font-size: 16px;
+}
+
+.dashboard A:hover{
+	text-decoration: none;
+}
+
+.dashboard .card-text:hover{
+	border: 1px solid #666;
+}
+
+.blog-post-title {
+	font-size: 24px;
+}
+
+.blog-post{
+	margin-bottom: 15px;
+}

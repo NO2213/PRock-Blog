@@ -1,0 +1,43 @@
+
+<div class="row">
+
+
+<div class="col-lg-12">
+<h2>{{TITLE}}</h2>
+<hr />
+
+{{ValidationMessage}}
+
+<form id="frmRegister" name="frmRegister" action="page=author_post_action" method="post">
+  <input type="hidden" id="post_id" name="post_id" value="{{post_id}}" />
+  <input type="hidden" id="action" name="action" value="{{action}}" />
+
+  <div class="form-group row">
+    <label for="title" class="col-sm-2 col-form-label">Post Title</label>
+    <div class="col-sm-10">
+      <input type="text" id="title" name="title" class="form-control" value="{{title}}" placeholder="Title" required>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="content" class="col-sm-2 col-form-label">Post Content</label>
+    <div class="col-sm-10">
+      <textarea id="content" name="content" class="form-control" placeholder="Content" style="min-height:250px;" required>{{content}}</textarea>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-sm-12" align="right">
+      <a class="btn btn-default" href="page=author_post" role="button">Back</a>
+      <button type="submit" class="btn btn-primary">Submit</button> 
+    </div>
+  </div>
+
+  <div>
+
+  </div>
+
+</form>
+
+</div>
+</div>
